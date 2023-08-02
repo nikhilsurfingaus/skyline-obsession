@@ -18,7 +18,7 @@ const NavTab = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav style={{ fontSize: "18px" }} className="ms-auto">
-            <NavLink to="/home" exact className="nav-link" activeClassName="active-link">Home</NavLink>
+            <NavLink to="/" exact className="nav-link" activeClassName="active-link">Home</NavLink>
             <NavLink to="/history" exact className="nav-link" activeClassName="active-link">History</NavLink>
             <NavLink to="/photos" exact className="nav-link" activeClassName="active-link">Photos</NavLink>
             <NavLink to="/reviews" exact className="nav-link" activeClassName="active-link">Reviews</NavLink>
