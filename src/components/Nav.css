@@ -1,0 +1,110 @@
+/* navbar.css */
+
+
+/* Navbar container */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: black;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 20;
+}
+
+
+/* Navbar logo */
+
+.navbar h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(78, 53, 121, 1) 18%, rgba(187, 12, 255, 1) 46%, rgba(146, 18, 159, 1) 77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* Navbar menu items */
+
+.navbar ul {
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+
+/* Navbar menu item */
+
+.navbar li {
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* Navbar active menu item */
+
+.navbar li.active {
+    color: #a020f0;
+}
+
+
+/* Mobile menu button */
+
+.navbar .mobile-menu-button {
+    display: block;
+    cursor: pointer;
+}
+
+
+/* Mobile menu container */
+
+.navbar .mobile-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    border-right: 1px solid #8e8e8e;
+    background-color: #000300;
+    transition: left 0.5s ease-in-out;
+}
+
+
+/* Mobile menu logo */
+
+.navbar .mobile-menu h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #a020f0;
+    margin: 1rem;
+    background: linear-gradient(90deg, rgba(78, 53, 121, 1) 18%, rgba(187, 12, 255, 1) 46%, rgba(146, 18, 159, 1) 77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+/* Mobile menu items */
+
+.navbar .mobile-menu li {
+    padding: 1rem;
+    border-bottom: 1px solid #a020f0;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* Mobile menu items hover */
+
+.navbar .mobile-menu li:hover {
+    color: #a020f0;
+}

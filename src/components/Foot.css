@@ -1,0 +1,18 @@
+/* Summary.css (or your CSS file) */
+
+.social-btn {
+    background: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.social-btn:hover {
+    background: #1A64BA;
+}
+
+.social-btn:hover>svg {
+    color: white;
+}
