@@ -5,7 +5,7 @@
     border: none;
     padding: 0.5rem;
     border-radius: 10px;
-    margin-right: 0.5rem;
+    margin-right: 1.3rem;
     transition: background 0.5s ease, color 0.5s ease;
 }
 
@@ -15,4 +15,15 @@
 
 .social-btn:hover>svg {
     color: white;
+}
+
+
+/* Add the following styles for Twitter and Instagram hover colors */
+
+.social-btn.twitter:hover {
+    background: rgb(83, 212, 255);
+}
+
+.social-btn.instagram:hover {
+    background: #C46200;
 }

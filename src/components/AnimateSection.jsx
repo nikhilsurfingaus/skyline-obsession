@@ -7,7 +7,7 @@ import Review from '../assets/animation/review.json';
 
 const AnimateSection = () => {
   return (
-    <div style={{ height: '100vh' }}>
+    <div style={{ height: '100vh' }} id="animateSection" >
       <Container className="h-100 d-flex flex-column justify-content-center">
         <h1 className="text-center mb-5">What You Can Expect...</h1>
         <Row xs={1} sm={1} md={3} className="g-4">
@@ -18,9 +18,11 @@ const AnimateSection = () => {
               style={{ backgroundColor: '#1A64BA', cursor: 'pointer' }}
             >
               <Lottie animationData={GTR} style={{ height: '50%' }} />
-              <Card.Body>
-                <Card.Title>Card 1</Card.Title>
-                <Card.Text>Card 1 description</Card.Text>
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center"> {/* Use Bootstrap classes for vertical centering */}
+                <Card.Title className='mb-4' >R34 Skyline History</Card.Title>
+                <Card.Text>
+                  Experience the captivating allure of the legendary R34 GTR Skyline through stunning visuals and compelling storytelling on our website. Immerse yourself in a riveting journey that showcases the essence of the R34 GTR, leaving you mesmerized by its timeless charm.
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -32,9 +34,11 @@ const AnimateSection = () => {
               style={{ backgroundColor: '#1A64BA', cursor: 'pointer' }}
             >
               <Lottie animationData={Cogs} style={{ height: '50%' }} />
-              <Card.Body>
-                <Card.Title>Card 2</Card.Title>
-                <Card.Text>Card 2 description</Card.Text>
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center"> {/* Use Bootstrap classes for vertical centering */}
+                <Card.Title className='mb-4'>Showcase Modifications</Card.Title>
+                <Card.Text>
+                  Dive into a diverse gallery of R34 GTR Skyline mods, curated from passionate owners worldwide, and witness the brilliance of customizations that elevate the iconic car to new heights. Our website celebrates the creativity and individuality of each owner, presenting a vibrant tapestry of automotive artistry.
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -46,9 +50,11 @@ const AnimateSection = () => {
               style={{ backgroundColor: '#1A64BA', cursor: 'pointer' }}
             >
               <Lottie animationData={Review} style={{ height: '50%' }} />
-              <Card.Body>
-                <Card.Title>Card 3</Card.Title>
-                <Card.Text>Card 3 description</Card.Text>
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center"> {/* Use Bootstrap classes for vertical centering */}
+                <Card.Title className='mb-4'>Community Reviews</Card.Title>
+                <Card.Text>
+                  Discover authentic user reviews about the R34 Skyline on our website, where passionate enthusiasts share their firsthand experiences and insights. Get valuable feedback and recommendations from the community to make informed decisions and embrace the R34 GTR Skyline's legacy with confidence.
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>

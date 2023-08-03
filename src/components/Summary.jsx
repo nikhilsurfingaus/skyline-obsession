@@ -11,10 +11,10 @@ const Summary = () => {
           {/* Left column with Bootstrap Card */}
           <Col xs={12} md={6}>
             <Card style={{ height: '315px', backgroundColor: '#1A64BA', cursor: 'pointer' }} className='text-white'>
-              <Card.Body className="text-center"> {/* Add the "text-center" class here */}
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a sample paragraph for the left side of the card.
+              <Card.Body className="d-flex flex-column justify-content-center align-items-center"> {/* Use Bootstrap flexbox classes here */}
+                <Card.Title>Why Skyline Obsession?</Card.Title>
+                <Card.Text className="text-center">
+                  Welcome to Skyline Obsession, the ultimate destination for R34 Skyline GTR enthusiasts. Delve into the comprehensive history of this iconic car, from its legendary sports car roots to its status as a timeless automotive masterpiece. Connect with a thriving community of passionate R34 aficionados, explore unbiased user reviews, and be inspired by a diverse gallery of awe-inspiring car modifications. Skyline Obsession offers an unparalleled experience, celebrating the legacy of the R34 Skyline GTR in all its glory, uniting automotive passion and obsession in one place.
                 </Card.Text>
               </Card.Body>
             </Card>

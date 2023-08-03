@@ -2,7 +2,9 @@ import React from 'react'
 import Typewriter from "typewriter-effect";
 import nisson from '../assets/video/loop.mp4'
 import './Hero.css'
-import { Link } from "react-scroll";
+import start from '../assets/logos/start.png'
+import { Link as ScrollLink } from "react-scroll";
+
 
 const HeroSection = () => {
   return (
@@ -29,25 +31,25 @@ const HeroSection = () => {
                 />
             </h3>
         </div>
-        <Link
-          to='background'
+        <ScrollLink
+          to='animateSection'
           spy={true}
           smooth={true}
-          offset={-70}
-          duration={500}
+          offset={-5}
+          duration={300}
         >
-        <button
-        className="bg-white font-medium my-6 mx-auto py-3 text-black mt-3"
+        <img
+        className="switch my-6 mx-auto py-3 text-black mt-3"
         style={{
-        width: '200px',
+        width: '150px',
         transition: 'background-color 0.3s, color 0.3s, border-color 0.3s',
         borderRadius: '10px',
         fontWeight: 'bold',
         }}
-        >
-        エンジンオン
-        </button>
-        </Link>
+        src={start}
+        alt='Engine Switch'
+        />
+        </ScrollLink>
       </div>
     </div>
     )

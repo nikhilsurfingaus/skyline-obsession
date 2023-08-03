@@ -35,12 +35,12 @@ const Foot = () => {
             </button>
           </a>
           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-            <button className="social-btn">
+            <button className="social-btn twitter"> {/* Add the class 'twitter' here */}
               <FaTwitter />
             </button>
           </a>
           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-            <button className="social-btn">
+            <button className="social-btn instagram"> {/* Add the class 'instagram' here */}
               <FaInstagram />
             </button>
           </a>
