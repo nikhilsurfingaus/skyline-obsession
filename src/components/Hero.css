@@ -45,3 +45,12 @@
     animation-duration: 1s;
     /* don't forget to set a duration! */
 }
+
+@media (max-width: 1000px) {
+    .head {
+        font-size: 4rem;
+    }
+    .start {
+        font-size: 2rem !important;
+    }
+}

@@ -4,11 +4,12 @@ import Lottie from 'lottie-react';
 import GTR from '../assets/animation/skyline.json';
 import Cogs from '../assets/animation/build.json';
 import Review from '../assets/animation/review.json';
+import './AnimateSection.css'
 
 const AnimateSection = () => {
   return (
-    <div style={{ height: '100vh' }} id="animateSection" >
-      <Container className="h-100 d-flex flex-column justify-content-center">
+    <div style={{ height: '100vh' }} id="animateSection" className='animateMain' >
+      <Container className="h-100 d-flex flex-column justify-content-center holder">
         <h1 className="text-center mb-5">What You Can Expect...</h1>
         <Row xs={1} sm={1} md={3} className="g-4">
           {/* Card 1 */}

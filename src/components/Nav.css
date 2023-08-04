@@ -1,5 +1,18 @@
 /* navbar.css */
 
+.moving-line {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    /* Customize the height of the line */
+    width: 100%;
+    /* Initially spans the width of the navbar */
+    background-color: #000000;
+    /* Customize the color of the line */
+    transition: width 0.5s ease;
+    /* Add a smooth transition effect */
+}
+
 
 /* Navbar container */
 

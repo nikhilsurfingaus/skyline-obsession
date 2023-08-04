@@ -1,0 +1,13 @@
+/* Mobile View */
+
+@media (max-width: 1000px) {
+    .animateMain {
+        height: 100% !important;
+    }
+    .holder {
+        padding-bottom: 50px;
+    }
+    .animateMain h1 {
+        padding-top: 50px;
+    }
+}

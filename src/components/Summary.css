@@ -28,3 +28,24 @@
     z-index: -1;
     /* Move the pseudo-element behind the content */
 }
+
+
+/* Mobile View */
+
+@media (max-width: 1000px) {
+    .summary-container {
+        height: 100% !important;
+    }
+    .txt-card {
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
+    .video-container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    /* Add space under Card.Text */
+    p {
+        font-size: 0.85rem !important;
+    }
+}
