@@ -8,14 +8,14 @@ import './AnimateSection.css'
 
 const AnimateSection = () => {
   return (
-    <div style={{ height: '100vh' }} id="animateSection" className='animateMain' >
+    <div style={{ height: '100vh', background: 'black' }} id="animateSection" className='animateMain' >
       <Container className="h-100 d-flex flex-column justify-content-center holder">
-        <h1 className="text-center mb-5">What You Can Expect...</h1>
+        <h1 className="text-center mb-5 mt-5">What You Can Expect...</h1>
         <Row xs={1} sm={1} md={3} className="g-4">
           {/* Card 1 */}
           <Col>
             <Card
-              className="h-100 text-white text-center"
+              className="h-75 text-white text-center"
               style={{ backgroundColor: '#1A64BA', cursor: 'pointer' }}
             >
               <Lottie animationData={GTR} style={{ height: '50%' }} />
@@ -31,7 +31,7 @@ const AnimateSection = () => {
           {/* Card 2 */}
           <Col>
             <Card
-              className="h-100 text-white text-center"
+              className="h-75 text-white text-center"
               style={{ backgroundColor: '#1A64BA', cursor: 'pointer' }}
             >
               <Lottie animationData={Cogs} style={{ height: '50%' }} />
@@ -47,7 +47,7 @@ const AnimateSection = () => {
           {/* Card 3 */}
           <Col>
             <Card
-              className="h-100 text-white text-center"
+              className="h-75 text-white text-center"
               style={{ backgroundColor: '#1A64BA', cursor: 'pointer' }}
             >
               <Lottie animationData={Review} style={{ height: '50%' }} />

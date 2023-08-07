@@ -19,16 +19,16 @@ const Foot = () => {
             <img
               alt="logo"
               src={logo}
-              width="30px"
-              style={{ marginRight: '1rem' }}
+              width="50px"
+              style={{ marginRight: '2rem' }}
             />
-            <span className="h5 font-weight-bold">Devwares</span>
+            <span className="h5 font-weight-bold"></span>
           </a>
         </div>
         <div>
           <small>&copy; Skyline Obsession, 2023. All rights reserved.</small>
         </div>
-        <div style={{ display: 'flex' }} className='text-white'>
+        <div style={{ display: 'flex'}} className='text-white'>
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <button className="social-btn">
               <FaFacebookF />
