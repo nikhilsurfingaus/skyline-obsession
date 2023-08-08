@@ -1,42 +1,52 @@
-import React from 'react'
+import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import './AboutFAQ.css';
+
+const accordionData = [
+  {
+    title: 'Website Introduction',
+    content: 'Welcome to the R3 Skyline website dedicated to the Nissan Skyline R34 GT-R.',
+  },
+  {
+    title: 'Car History',
+    content: 'Learn about the rich history of the iconic Nissan Skyline R34 GT-R.',
+  },
+  {
+    title: 'Community',
+    content: 'Join our passionate community of Nissan Skyline enthusiasts to share experiences and knowledge.',
+  },
+  {
+    title: 'Car Reviews',
+    content: 'Explore reviews from the community members who own and drive the Nissan Skyline R34 GT-R.',
+  },
+  {
+    title: 'Photos',
+    content: 'Browse through a stunning collection of photos showcasing the Nissan Skyline R34 GT-R from different angles.',
+  },
+  {
+    title: 'Contact Us',
+    content: 'Get in touch with us for any inquiries, suggestions, or collaborations related to the R34 Skyline website.',
+  },
+];
 
 const AboutFAQ = () => {
   return (
-    <div style={{height: '100vh', background: 'black' }}>
-        <div className="head">
-            <h1 className='md:text-6xl sm:text-5xl text-3xl font-bold md:py-5 head'>FAQ</h1>
-        </div>
-        <div className="accord">
+    <div style={{ height: '100vh', background: 'black', display: 'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column' }}>
+      <div className="head" style={{ display: 'flex', justifyContent: 'center', marginTop: '-8%' }}>
+        <h1 className="md:text-6xl sm:text-5xl text-3xl font-bold md:py-5 head">FAQ</h1>
+      </div>
+      <div className="accord">
         <Accordion>
-            <Accordion.Item eventKey="0">
-                <Accordion.Header>Accordion Item #1</Accordion.Header>
-                <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
-                </Accordion.Body>
+          {accordionData.map((item, index) => (
+            <Accordion.Item key={index} eventKey={index.toString()}>
+              <Accordion.Header>{item.title}</Accordion.Header>
+              <Accordion.Body>{item.content}</Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
-                <Accordion.Header>Accordion Item #2</Accordion.Header>
-                <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
-                </Accordion.Body>
-            </Accordion.Item>
-            </Accordion>
-        </div>
+          ))}
+        </Accordion>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutFAQ
+export default AboutFAQ;
