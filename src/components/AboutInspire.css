@@ -1,0 +1,44 @@
+/* AboutInspire.css */
+
+.about-inspire {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.inspire-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.lorem-ipsum {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.blue-circle {
+    background-color: #1A64BA;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .text-container,
+    .image-container {
+        text-align: center;
+        justify-content: center;
+    }
+}
