@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+.map {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.title h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Proxima Nova', sans-serif !important;
+    font-size: 3rem;
+    color: white;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    padding-bottom: 40px;
+}
+
+.vertical-timeline-element--work date {
+    color: rgb(88, 138, 182);
+}
+
+.vertical-timeline-element-content-arrow {
+    border-right: 7px solid rgb(255, 0, 230) !important;
+}
+
+.final {
+    color: white;
+}
+
+.vertical-timeline-element--work:hover,
+.vertical-timeline-element--education:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.01);
+}
+
+.Time {
+    margin-top: -50px;
+}
+
+.Time .ico {
+    font-size: 2.4rem;
+    margin-left: 11px;
+}
+
+.Time .but {
+    font-size: 1.4rem;
+}
+
+.Time .create__btn {
+    padding: 0px 13px !important;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Time .ico {
+        font-size: 1.7rem;
+        margin-left: 6px;
+        margin-top: -40px !important;
+    }
+    .Time .but {
+        font-size: 1.4rem;
+    }
+    .Time .create__btn {
+        padding: 0px 13px !important;
+        font-size: 0.8rem !important;
+        margin-top: 15px;
+    }
+    .Time .create__btn a {
+        font-size: 0.8rem !important;
+    }
+}

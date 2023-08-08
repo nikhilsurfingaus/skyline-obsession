@@ -19,6 +19,7 @@
     "react-scroll": "^1.8.9",
     "react-scroll-to-top": "^3.0.0",
     "react-use-scroll-snap": "^0.0.4",
+    "react-vertical-timeline-component": "^3.6.0",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
   },
