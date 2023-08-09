@@ -192,7 +192,7 @@ const HistoryTimeline = () => {
                 icon={<div className='num'>九</div>}
                 date="Nissan GTR R35 (2008)"
                 className='final'
-            />
+              />
         </VerticalTimeline>
       </div>
     </div>
