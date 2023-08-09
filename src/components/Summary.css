@@ -41,8 +41,8 @@
         padding-bottom: 20px !important;
         margin-top: 20px !important;
     }
-    .video-container {
-        padding-top: 20px;
+    .video-contain {
+        padding-top: 20px !important;
         padding-bottom: 40px;
     }
     /* Add space under Card.Text */

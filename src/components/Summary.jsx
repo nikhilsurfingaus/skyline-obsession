@@ -22,7 +22,7 @@ const Summary = () => {
 
           {/* Right column with Video Container */}
           <Col xs={12} md={6}>
-            <div className="video-container">
+            <div className="video-contain">
               {/* Use the video element to display the blender.mp4 video */}
               <video
                 width="100%"

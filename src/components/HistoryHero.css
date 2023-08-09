@@ -75,4 +75,7 @@
     .blue-card {
         width: 80%;
     }
+    .white-text {
+        font-size: 1rem !important;
+    }
 }

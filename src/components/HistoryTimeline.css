@@ -1,6 +1,40 @@
 @import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
 @import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+.timeline-card-content {
+    padding: 20px;
+    /* Adjust as needed */
+    background: #1A64BA;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.timeline-card-content h3,
+.timeline-card-content h4,
+.timeline-card-content p {
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio for video */
+    border-radius: 0px 0px 0 0;
+}
+
+.timeline-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
 .map {
     height: 100%;
     display: flex;
@@ -28,17 +62,11 @@
 }
 
 .vertical-timeline-element-content-arrow {
-    border-right: 7px solid rgb(255, 0, 230) !important;
+    border-right: 12px solid rgb(0, 128, 255) !important;
 }
 
 .final {
     color: white;
-}
-
-.vertical-timeline-element--work:hover,
-.vertical-timeline-element--education:hover {
-    transition: all 0.3s ease-out;
-    transform: scale(1.01);
 }
 
 .Time {
@@ -60,6 +88,26 @@
     margin-top: 15px;
 }
 
+.vertical-timeline-element-content {
+    background: none;
+    box-shadow: none;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+    left: 95.3%;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content-arrow {
+    right: 95.3%;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    font-weight: bold !important;
+}
+
 @media only screen and (max-width: 1200px) {
     .Time .ico {
         font-size: 1.7rem;
@@ -76,5 +124,14 @@
     }
     .Time .create__btn a {
         font-size: 0.8rem !important;
+    }
+    .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+        display: none;
+    }
+    .vertical-timeline-element-date {
+        display: none !important;
+    }
+    .head {
+        text-align: center;
     }
 }
