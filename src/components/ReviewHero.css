@@ -1,0 +1,39 @@
+.closeModal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.closeModal:hover {
+    filter: brightness(100);
+}
+
+.modalTitle {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.projectDescription {
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.modal-btn {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(209, 40, 231) !important;
+}
+
+.modal-btn:hover {
+    color: black !important;
+}
+
+@media (max-width: 1000px) {
+    .top {
+        height: 38vh !important;
+    }
+}

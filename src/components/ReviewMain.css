@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+    .holder {
+        width: 100% !important;
+    }
+    .cardComp {
+        width: 80% !important;
+    }
+}
