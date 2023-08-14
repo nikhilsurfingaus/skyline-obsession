@@ -20,7 +20,7 @@ const NavTab = () => {
           <Nav style={{ fontSize: "18px" }} className="ms-auto">
             <NavLink to="/" exact="true" className="nav-link" activeclassname="active-link">Home</NavLink>
             <NavLink to="/history" exact="true" className="nav-link" activeclassname="active-link">History</NavLink>
-            <NavLink to="/photos" exact="true" className="nav-link" activeclassname="active-link">Photos</NavLink>
+            <NavLink to="/photos" exact="true" className="nav-link" activeclassname="active-link">Featured</NavLink>
             <NavLink to="/reviews" exact="true" className="nav-link" activeclassname="active-link">Reviews</NavLink>
             <NavLink to="/about" exact="true" className="nav-link" activeclassname="active-link">About</NavLink>
           </Nav>

@@ -4,6 +4,7 @@
     height: 100vh;
     left: 0;
     right: 0;
+    background-color: black !important;
 }
 
 .content {
@@ -44,6 +45,10 @@
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s;
     /* don't forget to set a duration! */
+}
+
+.cov {
+    background-color: black !important;
 }
 
 @media (max-width: 1000px) {
