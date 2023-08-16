@@ -56,7 +56,27 @@
     /* Change z-index */
 }
 
+.blue-cardf {
+    position: relative;
+    background-color: #1A64BA;
+    border-radius: 10px;
+    padding: 8px;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 0;
+    /* Change z-index */
+}
+
 .white-text {
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+    z-index: 4;
+    /* Change z-index */
+}
+
+.white-textf {
     color: white;
     font-weight: 400;
     font-size: 1.3rem;
@@ -74,5 +94,12 @@
     }
     .blue-card {
         width: 80%;
+    }
+    .blue-cardf {
+        margin-top: 30px;
+        width: 85%;
+    }
+    .white-textf {
+        font-size: 0.95rem !important;
     }
 }
