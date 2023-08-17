@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets//logos/logo.png';
 import { NavLink } from 'react-router-dom';
 
+
 const NavTab = () => {
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" style={{ background: "transparent", height: "60px", zIndex: 1 }} variant="dark">

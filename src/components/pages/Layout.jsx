@@ -14,6 +14,7 @@ const Layout = () => {
   return (
     <Router>
       <NavTab />
+      <hr className="glowing-hr" style={{height: '2px'}} /> 
       <Routes>
               <Route path="/" element={<Home />}  />
               <Route path="/home" element={<Home />}  />
