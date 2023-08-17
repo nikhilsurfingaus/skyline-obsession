@@ -17,7 +17,7 @@ const FeaturedCars = () => {
 
   return (
     <div>
-        <FeatureSections title="Paul Walkers R34" text={text1} flip={false} image={one} link={'https://fastandfurious.fandom.com/wiki/1999_Nissan_Skyline_GT-R_R34'} />
+        <FeatureSections title="Paul Walkers R34" text={text1} flip={false} image={one} link={'https://fastandfurious.fandom.com/wiki/1999_Nissan_Skyline_GT-R_R34 '} />
         <hr className="glowing-hr" /> 
         <FeatureSections title="Mine’s R34 Skyline GT-R" text={text2} flip={true} image={two} link={'https://www.motortrend.com/features/130-0703-mines-r34-nissan-skyline-gtr/'} />
         <hr className="glowing-hr" /> 

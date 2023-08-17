@@ -23,7 +23,7 @@ const HeroSection = () => {
       <video src={nisson} autoPlay loop muted className='video' />
 
       <div className='content max-w-[800px] mt-[-70px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 head'>R34 SKYLINE GTR</h1>
+        <h1 className='animate__animated animate__fadeIn md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 head'>R34 SKYLINE GTR</h1>
         <div className='flex justify-center items-center'>
           <h3 style={{ fontSize: '3.5rem', color: 'white' }} className='start'>
             <Typewriter
@@ -39,7 +39,7 @@ const HeroSection = () => {
         <ScrollLink to='animateSection' spy={true} smooth={true} offset={-5} duration={300}>
           <img
             onClick={handleLinkClick}
-            className='switch my-6 mx-auto py-3 text-black mt-3'
+            className='switch my-6 mx-auto py-3 text-black mt-3 animate__animated animate__fadeIn'
             style={{
               width: '150px',
               transition: 'background-color 0.3s, color 0.3s, border-color 0.3s',
