@@ -1,5 +1,6 @@
 /* navbar.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
 .moving-line {
     position: absolute;
     bottom: 0;
@@ -24,12 +25,15 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    background-color: rgb(255, 0, 0) !important;
     position: sticky;
     left: 0;
     right: 0;
     top: 0;
     z-index: 20;
+}
+
+.goto {
+    font-family: 'Archivo Black', sans-serif !important;
 }
 
 

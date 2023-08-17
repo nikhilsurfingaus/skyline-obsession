@@ -1,6 +1,7 @@
 /* AboutInspire.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
 .about-inspire {
     height: 100vh;
     display: flex;
@@ -18,7 +19,8 @@
 }
 
 .lorem-ipsum {
-    font-size: 1.2rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 

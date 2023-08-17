@@ -1,5 +1,7 @@
 /* FeatureSections.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
 .featured-container {
     background: black;
     padding: 100px;
@@ -20,6 +22,12 @@
 
 .featured-text h2 {
     margin-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.featured-text p {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
 }
 
 .featured-image {

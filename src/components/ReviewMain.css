@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
+.owner {
+    font-family: 'Archivo Black', sans-serif !important;
+}
+
 @media (max-width: 1000px) {
     .holder {
         width: 100% !important;

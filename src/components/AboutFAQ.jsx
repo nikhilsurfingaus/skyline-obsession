@@ -39,8 +39,8 @@ const AboutFAQ = () => {
         <Accordion>
           {accordionData.map((item, index) => (
             <Accordion.Item key={index} eventKey={index.toString()}>
-              <Accordion.Header>{item.title}</Accordion.Header>
-              <Accordion.Body>{item.content}</Accordion.Body>
+              <Accordion.Header className='ct' >{item.title}</Accordion.Header>
+              <Accordion.Body className='an'>{item.content}</Accordion.Body>
             </Accordion.Item>
           ))}
         </Accordion>

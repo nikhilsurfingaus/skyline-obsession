@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
 .video {
     object-fit: cover;
     width: 100%;
@@ -33,7 +34,7 @@
 }
 
 .head {
-    font-size: 6rem;
+    font-size: 5.5rem;
 }
 
 .switch {
@@ -54,6 +55,10 @@
 
 .lander {
     font-family: 'Alfa Slab One', cursive;
+}
+
+.start {
+    font-family: 'Archivo Black', sans-serif;
 }
 
 @media (max-width: 1000px) {

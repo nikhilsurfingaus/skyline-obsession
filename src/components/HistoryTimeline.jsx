@@ -14,7 +14,7 @@ const HistoryTimeline = () => {
   return (
     <div style={{ height: '100%', background: 'black', paddingBottom: '100px'}}>
       <div className="head d-flex justify-content-center">
-        <h1 className="md-text-4xl sm-text-3xl text-2xl font-weight-bold py-5 head" style={{ fontSize: '3rem' }}>A Blast From The Past...</h1>
+        <h1 className="md-text-4xl sm-text-3xl text-2xl font-weight-bold py-5 welly" style={{ fontSize: '3rem' }}>A Blast From The Past...</h1>
       </div>
       <div className="time">
       <VerticalTimeline>

@@ -1,5 +1,6 @@
 /* AboutFAQ.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
 .accord {
     width: 50%;
     margin: 0 auto;
@@ -38,6 +39,11 @@
     --bs-accordion-border-color: rgb(13, 75, 169) !important;
     font-weight: 600;
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(209, 44, 190, 0.25);
+}
+
+.an {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1000px) {
