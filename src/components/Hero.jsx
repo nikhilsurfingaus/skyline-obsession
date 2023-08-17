@@ -23,7 +23,7 @@ const HeroSection = () => {
       <video src={nisson} autoPlay loop muted className='video' />
 
       <div className='content max-w-[800px] mt-[-70px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <h1 className='animate__animated animate__fadeIn md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 head'>R34 SKYLINE GTR</h1>
+        <h1 className=' lander animate__animated animate__fadeIn md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 head'>R34 SKYLINE GTR</h1>
         <div className='flex justify-center items-center'>
           <h3 style={{ fontSize: '3.5rem', color: 'white' }} className='start'>
             <Typewriter
