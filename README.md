@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/logos/logo.png" alt="drawing" height="75" width="75"/> Skyline Obsession Fullstack Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Site Link: [https://skylineobsession.netlify.app](https://skylineobsession.netlify.app)
 
-## Available Scripts
+## Website Powered By: 
+<img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="drawing" width="100"/> <img 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="drawing" height="100" width="117"/> <img 
+src="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png" alt="drawing" width="100"/> <img 
+src="https://www.drupal.org/files/project-images/animate.png" alt="drawing"  height="100" width="180"/>  <img 
+src="https://play-lh.googleusercontent.com/2VNrlf-gc2gUspYuqAe7oijQG9BaaK_0F9DkSqh8gYUqKDzIguBwzEdfY5ms1Olid8w" alt="drawing" width="100"/>
 
-In the project directory, you can run:
+## Description 
+The website to bring together the R34 Skyline community  
 
-### `npm start`
+Features:
+- Google Authentication (Firebase) BaaS
+- Create and Post Car Reviews (Firestore) BaaS
+- Amazing Lottie Animation to bring website to life
+- About Section
+- Feature Section of famous R34's
+- History Evolution of the GTR
+- Fully Responsive: The website is fully responsive and works well on all devices.
+- Modern Design: The website has a modern and visually appealing design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots 
+<p float="left">
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo3.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo6.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo4.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo5.jpg" height=45% width=45% />
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Libraries
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.1",
+    "cdbreact": "^1.5.18",
+    "firebase": "^10.1.0",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.5",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-loading": "^2.0.3",
+    "react-modal": "^3.16.1",
+    "react-notifications-component": "^4.0.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-scroll-to-top": "^3.0.0",
+    "react-use-scroll-snap": "^0.0.4",
+    "react-vertical-timeline-component": "^3.6.0",
+    "typewriter-effect": "^2.20.1",
+    "web-vitals": "^2.1.4"
 
-### `npm test`
+## Copyright
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Copyrights 2023, Developed by Nikhil Naik. @WaveFlightSimulation All Rights Reserved.**
