@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavTab = () => {
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" style={{ background: "transparent", height: "60px", zIndex: 1 }} variant="dark">
+    <Navbar sticky="top" collapseOnSelect expand="lg" style={{ background: "transparent", height: "60px", zIndex: 100 }} variant="dark">
       <Container className='animate__animated animate__slideInDown'>
         <div style={{ display: "flex", alignItems: "center" }}>
           <Navbar.Brand href="/home" style={{ fontSize: "25px" }}>
@@ -18,7 +18,7 @@ const NavTab = () => {
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav style={{ fontSize: "18px" }} className="ms-auto goto">
+          <Nav style={{ fontSize: "18px" }} className="ms-auto">
             <NavLink to="/" exact="true" className="nav-link" activeclassname="active-link">Home</NavLink>
             <NavLink to="/history" exact="true" className="nav-link" activeclassname="active-link">History</NavLink>
             <NavLink to="/photos" exact="true" className="nav-link" activeclassname="active-link">Featured</NavLink>

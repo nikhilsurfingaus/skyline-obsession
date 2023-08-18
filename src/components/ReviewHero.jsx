@@ -13,6 +13,8 @@ import {ReactNotifications} from 'react-notifications-component';
 import { Store } from 'react-notifications-component';
 import 'react-notifications-component/dist/theme.css';
 
+import {BiLogoFirebase} from 'react-icons/bi'
+
 const ReviewHero = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   // eslint-disable-next-line 
@@ -109,7 +111,10 @@ const ReviewHero = () => {
       <h1 style={{ fontSize: '3.5rem' }} className='revTitle mt-5 md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
         REVIEWS
       </h1>
-      <div style={{ marginTop: '50px' }}>
+      <div className='fire'>
+        <span>Powered By Firebase <BiLogoFirebase style={{color: 'orange', fontSize: '1.2rem'}} className='mb-1' /> </span>
+      </div>
+      <div style={{ marginTop: '30px' }}>
         {isLoggedIn ? (
           <div>
             <ReactNotifications />

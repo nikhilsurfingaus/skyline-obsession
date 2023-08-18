@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Koulen&family=Roboto&display=swap');
 .closeModal {
     position: absolute;
     right: 10px;
@@ -11,6 +12,10 @@
 .revTitle {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.3rem;
+}
+
+.fire {
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .closeModal:hover {

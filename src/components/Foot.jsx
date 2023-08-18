@@ -25,7 +25,7 @@ const Foot = () => {
             <span className="h5 font-weight-bold"></span>
           </a>
         </div>
-        <div>
+        <div className='ftext'>
           <small>&copy; Skyline Obsession, 2023. All rights reserved.</small>
         </div>
         <div style={{ display: 'flex'}} className='text-white'>
