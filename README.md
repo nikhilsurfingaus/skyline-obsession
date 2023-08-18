@@ -24,12 +24,14 @@ Features:
 
 ## Screenshots 
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo1.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo2.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo3.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo6.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo4.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo5.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/3.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/4.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/5.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/6.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/7.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/skyline-obsession/blob/master/src/assets/screenshots/8.jpg" height=45% width=45% />
 </p>
 
 ## Libraries
