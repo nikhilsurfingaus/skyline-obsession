@@ -27,6 +27,8 @@ const Summary = () => {
               <video
                 width="100%"
                 height="315"
+                playsinline 
+                playsInline 
                 autoPlay
                 loop
                 muted

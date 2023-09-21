@@ -20,7 +20,7 @@ const HeroSection = () => {
   return (
     <div className='cov text-white m-0 p-0 relative main z-0' id='home'>
       <div className='overlay h-screen'></div>
-      <video src={nisson} autoPlay loop muted className='video' />
+      <video src={nisson} playsinline playsInline autoPlay loop muted className='video' />
 
       <div className='content max-w-[800px] mt-[-70px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <h1 className=' lander animate__animated animate__fadeIn md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 head'>R34 SKYLINE GTR</h1>

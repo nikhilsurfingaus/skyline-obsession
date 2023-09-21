@@ -26,7 +26,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline  autoPlay loop muted>
                     <source src={first} type="video/mp4" />
                   </video>
                 </div>
@@ -48,7 +48,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline  autoPlay loop muted>
                     <source src={second} type="video/mp4" />
                   </video>
                 </div>
@@ -69,7 +69,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline  autoPlay loop muted>
                     <source src={third} type="video/mp4" />
                   </video>
                 </div>
@@ -90,7 +90,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline  autoPlay loop muted>
                     <source src={fourth} type="video/mp4" />
                   </video>
                 </div>
@@ -111,7 +111,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline autoPlay loop muted>
                     <source src={fifth} type="video/mp4" />
                   </video>
                 </div>
@@ -132,7 +132,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline  autoPlay loop muted>
                     <source src={sixth} type="video/mp4" />
                   </video>
                 </div>
@@ -153,7 +153,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline  autoPlay loop muted>
                     <source src={seventh} type="video/mp4" />
                   </video>
                 </div>
@@ -174,7 +174,7 @@ const HistoryTimeline = () => {
               >
                 {/* Top Half: Video */}
                 <div className="video-container">
-                  <video className="timeline-video" autoPlay loop muted>
+                  <video className="timeline-video" playsInline autoPlay loop muted>
                     <source src={eight} type="video/mp4" />
                   </video>
                 </div>

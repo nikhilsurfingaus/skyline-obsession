@@ -8,7 +8,7 @@ const HistoryHero = () => {
     <div style={{ height: '100vh', background: 'black' }}>
       <div className='text-white m-0 p-0 relative main z-0 animate__animated animate__fadeIn' style={{ height: '50vh', position: 'relative' }}>
         <div className='overlay h-screen'></div>
-        <video src={nisson} autoPlay loop muted className='video' style={{ width: '100%', height: '100%', WebkitMediaControls: 'display(none)' }} />
+        <video src={nisson} playsInline  autoPlay loop muted className='video' style={{ width: '100%', height: '100%', WebkitMediaControls: 'display(none)' }} />
         <div className='content max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center' style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 2 }}>
           <h1 className='animate__animated animate__fadeIn md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 head'>HISTORY</h1>
         </div>
