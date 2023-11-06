@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-import logo from '../assets/logos/logo.png';
+import logo from '../../assets/logos/logo.png';
 import './Foot.css';
 
 const Foot = () => {

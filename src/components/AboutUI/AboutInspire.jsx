@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutInspire.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import people from '../assets/animation/people.json';
+import people from '../../assets/animation/people.json';
 import Lottie from 'lottie-react';
 
 const AboutInspire = () => {

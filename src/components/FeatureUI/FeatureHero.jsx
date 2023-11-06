@@ -1,5 +1,5 @@
-import nisson from '../assets/video/featured/feat1.mp4';
-import './AboutHero.css';
+import nisson from '../../assets/video/featured/feat1.mp4';
+import '../AboutUI/AboutHero.css';
 import { Slide } from "react-awesome-reveal";
 
 const FeatureHero = () => {

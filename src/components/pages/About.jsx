@@ -1,7 +1,7 @@
 import React from 'react';
-import AboutHero from '../AboutHero';
-import AboutFAQ from '../AboutFAQ';
-import AboutInspire from '../AboutInspire';
+import AboutHero from '../AboutUI/AboutHero';
+import AboutFAQ from '../AboutUI/AboutFAQ';
+import AboutInspire from '../AboutUI/AboutInspire';
 import ScrollToTop from "react-scroll-to-top";
 
 const About = () => {

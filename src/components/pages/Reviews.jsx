@@ -1,5 +1,5 @@
-import ReviewHero from '../ReviewHero'
-import ReviewMain from '../ReviewMain'
+import ReviewHero from '../ReviewUI/ReviewHero'
+import ReviewMain from '../ReviewUI/ReviewMain'
 import ScrollToTop from "react-scroll-to-top";
 
 const Reviews = () => {

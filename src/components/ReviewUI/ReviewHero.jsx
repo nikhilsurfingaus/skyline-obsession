@@ -1,8 +1,8 @@
 import { useState, useEffect  } from 'react';
-import { auth, db, provider } from './BaseFire';
+import { auth, db, provider } from '../Backend/BaseFire';
 import { signInWithPopup, onAuthStateChanged } from 'firebase/auth';
 import Modal from 'react-modal'
-import closeModal from '../assets/logos/close.svg'
+import closeModal from '../../assets/logos/close.svg'
 import './ReviewHero.css'
 import {IoMdCreate} from 'react-icons/io'
 import {AiOutlineLogin} from 'react-icons/ai'

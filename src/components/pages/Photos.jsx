@@ -1,5 +1,5 @@
-import FeatureHero from '../FeatureHero'
-import FeaturedCars from '../FeaturedCars';
+import FeatureHero from '../FeatureUI/FeatureHero'
+import FeaturedCars from '../FeatureUI/FeaturedCars';
 import ScrollToTop from "react-scroll-to-top";
 
 const Photos = () => {

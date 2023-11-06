@@ -1,14 +1,14 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './HistoryTimeline.css'
-import first from '../assets/video/first.mp4';
-import second from '../assets/video/second.mp4';
-import third from '../assets/video/third.mp4';
-import fourth from '../assets/video/fourth.mp4';
-import fifth from '../assets/video/fifth.mp4';
-import sixth from '../assets/video/sixth.mp4';
-import seventh from '../assets/video/seventh.mp4';
-import eight from '../assets/video/eight.mp4';
+import first from '../../assets/video/first.mp4';
+import second from '../../assets/video/second.mp4';
+import third from '../../assets/video/third.mp4';
+import fourth from '../../assets/video/fourth.mp4';
+import fifth from '../../assets/video/fifth.mp4';
+import sixth from '../../assets/video/sixth.mp4';
+import seventh from '../../assets/video/seventh.mp4';
+import eight from '../../assets/video/eight.mp4';
 
 const HistoryTimeline = () => {
   return (

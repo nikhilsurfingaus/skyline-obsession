@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import nisson from '../assets/video/loop.mp4';
+import nisson from '../../assets/video/loop.mp4';
 import './Hero.css';
-import start from '../assets/logos/start.png';
+import start from '../../assets/logos/start.png';
 import { Link as ScrollLink } from 'react-scroll';
-import sound from '../assets/audio/startup.mp3';
+import sound from '../../assets/audio/startup.mp3';
 
 const HeroSection = () => {
   const [linkClicked, setLinkClicked] = useState(false);
