@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from './BaseFire'; // Assuming you have imported the db instance from your BaseFire.js
+import { db } from '../Backend/BaseFire'; // Assuming you have imported the db instance from your BaseFire.js
 import ReviewCard from './ReviewCard';
 import './ReviewMain.css'
 import ReactLoading from 'react-loading';

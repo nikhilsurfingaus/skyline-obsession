@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Lottie from 'lottie-react';
-import GTR from '../assets/animation/skyline.json';
-import Cogs from '../assets/animation/build.json';
-import Review from '../assets/animation/review.json';
+import GTR from '../../assets/animation/skyline.json';
+import Cogs from '../../assets/animation/build.json';
+import Review from '../../assets/animation/review.json';
 import './AnimateSection.css'
 
 const AnimateSection = () => {

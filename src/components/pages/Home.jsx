@@ -1,7 +1,7 @@
 import React from 'react'
-import HeroSection from '../Hero'
-import AnimateSection from '../AnimateSection'
-import Summary from '../Summary'
+import HeroSection from '../HeroUI/Hero'
+import AnimateSection from '../AnimateUI/AnimateSection'
+import Summary from '../SummaryUI/Summary'
 import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {

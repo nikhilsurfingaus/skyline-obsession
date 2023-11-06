@@ -1,5 +1,5 @@
 import React from 'react';
-import nisson from '../assets/video/blender.mp4';
+import nisson from '../../assets/video/blender.mp4';
 import './AboutHero.css';
 import { Slide } from "react-awesome-reveal";
 

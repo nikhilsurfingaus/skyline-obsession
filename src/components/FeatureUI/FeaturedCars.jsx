@@ -1,9 +1,9 @@
 import FeatureSections from "./FeatureSections"
-import one from '../assets/backgrounds/1.jpg'
-import two from '../assets/backgrounds/2.jpg'
-import three from '../assets/backgrounds/3.jpg'
-import four from '../assets/backgrounds/4.jpg'
-import five from '../assets/backgrounds/5.jpg'
+import one from '../../assets/backgrounds/1.jpg'
+import two from '../../assets/backgrounds/2.jpg'
+import three from '../../assets/backgrounds/3.jpg'
+import four from '../../assets/backgrounds/4.jpg'
+import five from '../../assets/backgrounds/5.jpg'
 
 const FeaturedCars = () => {
 

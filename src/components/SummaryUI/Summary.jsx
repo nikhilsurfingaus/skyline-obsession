@@ -1,7 +1,7 @@
 import React from 'react';
 import './Summary.css';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import blender from '../assets/video/blender.mp4';
+import blender from '../../assets/video/blender.mp4';
 
 const Summary = () => {
   return (

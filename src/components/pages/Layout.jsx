@@ -6,8 +6,8 @@ import Photos from './Photos';
 import Reviews from './Reviews';
 import About from './About';
 import PageNotFound from './404';
-import NavTab from '../Nav';
-import Foot from '../Foot';
+import NavTab from '../NavUI/Nav';
+import Foot from '../NavUI/Foot';
 import './About.css'; // Import your custom CSS file here
 
 const Layout = () => {

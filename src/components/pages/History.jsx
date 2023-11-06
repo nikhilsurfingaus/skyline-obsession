@@ -1,6 +1,6 @@
-import HistoryHero from "../HistoryHero"
+import HistoryHero from "../HistoryUI/HistoryHero"
 import ScrollToTop from "react-scroll-to-top";
-import HistoryTimeline from "../HistoryTimeline";
+import HistoryTimeline from "../HistoryUI/HistoryTimeline";
 <hr className="glowing-hr" /> 
 
 const History = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import nisson from '../assets/video/herohistory.mp4';
+import nisson from '../../assets/video/herohistory.mp4';
 import './HistoryHero.css';
 import { Slide } from "react-awesome-reveal";
 
